@@ -1,4 +1,4 @@
-export default function useWindowSize(ms?: number): {
+export declare const useWindowSize: (ms?: number) => {
     width: number;
     height: number;
 };
