@@ -1,1 +1,1 @@
-export declare function throttle(func: Function, ms: number): () => void;
+export default function throttle(func: Function, ms: number): () => void;
