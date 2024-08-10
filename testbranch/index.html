@@ -1,0 +1,207 @@
+<!doctype html><html lang="en"><head><title>Revisions</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>body {
+            max-width: 100vw;
+            max-height: 100vh;
+            overflow: hidden;
+        }
+        #root {
+            position: relative;
+            height: 98vh;
+        }
+        #filter-bar {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 999;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        .input-typo-tolerance {
+            display: flex;
+        }
+        .typo-tolerance {
+            margin: 7px;
+        }
+        #input-id {
+            padding: 7px;
+            border-radius: 4px;
+        }
+        .result-list {
+            position: absolute;
+            bottom: 0;
+            z-index: 999;
+            background-color: white;
+            max-height: 100vh;
+            overflow: auto;
+            width: 100vw;
+            background-color: transparent;
+        }
+        .marker-div-icon b {
+            background-color: aliceblue;
+            width: max-content;
+            position: absolute;
+            border-radius: 0 5px 5px 5px;
+            padding: 0 2px;
+            border: 1px solid green;
+        }
+        .uezd-owner, .church-type {
+            display: flex;
+            justify-content: space-between;
+            flex-grow: 1;
+        }
+        .select-filter {
+            flex-grow: 1;
+        }
+        .panel-arrow-button {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 0 10px;
+        }
+
+        .tab-list-of-types {
+            flex-wrap: nowrap !important;
+            background-color: transparent;
+        }
+
+        .tab-list-of-types.active {
+            background-color: #ffffff;
+        }
+        .table.table-striped.active {
+            margin-bottom: 0;
+        }
+        .all-item {
+            display: flex;
+        }
+        #info-panel {
+            position: absolute;
+            top: 0;
+        }
+
+        .list-group {
+            width: fit-content;
+        }
+        #info-panel > .react-draggable {
+            width: fit-content;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .famyly-item-card > header {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+        .famyly-item-card {
+            background-color: white;
+        }
+        .famyly-item-card:hover {
+            cursor: pointer;
+        }
+        .famyly-item-card:active {
+            cursor: move;
+        }
+        #info-panel > .info-panel {
+            position: absolute;
+            bottom: 0;
+            z-index: 1000;
+            background-color: white;
+            border: 3px solid;
+        }
+        .head-family {
+            cursor: pointer;
+        }
+        .laoding-box {
+            padding: 10px;
+        }
+        /* расширить Popup маркера */
+        .leaflet-popup-content {
+            width: auto !important;
+        }
+        @media (min-width: 767px) {
+            .white-space-nowrap {
+                white-space: nowrap;
+            }
+        }
+        .close-button-card {
+            margin: 12px;
+        }
+        .text-end.card-header-item.card-header {
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 0;
+        }
+        .card-header-item .nav-item {
+            border-bottom: 0;
+        }
+        .card-header-item .nav-link {
+            height: 100%;
+        }
+        .famyly-item-card.draggable-card-item {
+            z-index: 1000;
+            position: absolute;
+        }
+        .nav.nav-tabs.card-list-of-types {
+            border-bottom: 0;
+        }
+        .card-list-row {
+            white-space: nowrap;
+        }
+        .scroll-to-top-button {
+            position: fixed;
+            bottom: 2vh;
+            right: 3vw;
+            display: block;
+            cursor: pointer;
+        }
+        .scroll-to-top-button svg {
+            border-radius: 50%;
+            background-color: #ffffff;
+            width: 1.2rem;
+            height: 1.2rem;
+            border: 1px solid gray;
+        }
+        .item-title-hover-info {
+            border-bottom: 1px solid;
+            cursor: auto;
+        }
+        #map > div.leaflet-control-container > div.leaflet-top.leaflet-right {
+            z-index: 999!important;
+        }
+        .leaflet-control-layers-toggle {
+            background-image: url(./icon-maps.svg) !important;
+            background-size: 30px 30px !important;
+            width: 30px !important;
+            height: 30px !important;
+        }
+        .draggable-card-item.resizable-modal-content {
+            border: 2px solid;
+            resize: both;
+            overflow: auto;
+            display: flex;
+            justify-content: space-between;
+            min-height: 140px;
+            min-width: 200px;
+        }
+        ol.card-draggable-body {
+            overflow-y: auto;
+            height: 100%;
+            align-content: center;
+        }
+        .open-list-base-button {
+            position: absolute;
+            left: -50px;
+            top: 50%;
+            z-index: 1000;
+            rotate: 90deg;
+        }
+        .tab-list-of-types .nav-item {
+            margin-right: 1%;
+        }</style><script async src="https://www.googletagmanager.com/gtag/js?id=G-63LQJL2YC1"></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-63LQJL2YC1');</script><script defer="defer" src="1468a67d2f559134b2e8964.js"></script><script defer="defer" src="mapb89748807549f537d880.js"></script></head><body><div id="filter-bar-anchor"></div><div id="root"></div><div id="result-list"></div><div id="info-panel"></div></body></html>
