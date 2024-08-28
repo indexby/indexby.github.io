@@ -1,3 +1,3 @@
 import React from "react";
-declare const PlaceMarker: ({ hit, setCurrentLocId }: any) => React.JSX.Element;
+declare const PlaceMarker: ({ hit, selectCallback }: any) => React.JSX.Element;
 export default PlaceMarker;
