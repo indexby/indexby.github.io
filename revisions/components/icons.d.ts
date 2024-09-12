@@ -7,4 +7,5 @@ export declare const schoolIcon: ({ iconColor }: any) => string;
 export declare const arrowUpIcon: () => string;
 export declare const InfoIcon: () => React.JSX.Element;
 export declare const PersonInfo: () => React.JSX.Element;
+export declare const EditIcon: () => React.JSX.Element;
 export declare const getIcon: (type: string) => string | React.JSX.Element | (({ iconColor }: any) => string);
