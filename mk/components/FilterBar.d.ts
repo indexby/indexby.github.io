@@ -1,2 +1,2 @@
 import React from "react";
-export default function FilterBar({ type }: any): React.JSX.Element;
+export default function FilterBar({ type, callBack }: any): React.JSX.Element;
